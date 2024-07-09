@@ -46,3 +46,5 @@ The system has pre-defined usernames and passwords for demonstration purposes:
 
 - **OnlineReservationSystem.java**: Contains the main Java class implementing the reservation system.
 - **README.md**: This file, providing information about the project.
+- Note
+This implementation uses hardcoded data for simplicity and demonstration. In a real-world application, data persistence, security measures, and error handling would be more robust and extensive.
