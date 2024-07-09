@@ -34,7 +34,7 @@ Upon running the program, users are prompted to log in with their username and p
 
 ### Contributors:
 
-- https://github.com/Shaswat2208
+- [Shaswat Swarup Sahoo](https://github.com/Shaswat2208)
 
 Feel free to fork the repository, make improvements, or report issues.
 
