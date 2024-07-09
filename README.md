@@ -34,11 +34,8 @@ Upon running the program, users are prompted to log in with their username and p
 
 ### Contributors:
 
-- Shaswat2208https://github.com/Shaswat2208
+- https://github.com/Shaswat2208
 
 Feel free to fork the repository, make improvements, or report issues.
 
 Happy Reserving!
-```
-
-Replace `[Your Name](https://github.com/yourusername)` with your actual GitHub profile link if you want to credit yourself as a contributor. This README.md file provides a basic overview of your repository, its purpose, how to compile and run the program, and a brief description of its functionality.
