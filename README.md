@@ -52,4 +52,3 @@ The system has pre-defined usernames and passwords for demonstration purposes:
 This implementation uses hardcoded data for simplicity and demonstration. In a real-world application, data persistence, security measures, and error handling would be more robust and extensive.
 
 Feel free to explore and modify the code according to your needs!
-```
