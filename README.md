@@ -1,3 +1,6 @@
+Sure, here's a `README.md` file for your GitHub repo named "OIBSIP_1":
+
+```markdown
 # Online Reservation System
 
 This repository contains a simple implementation of an Online Reservation System in Java. This system allows users to make and cancel train reservations based on user authentication.
@@ -46,5 +49,9 @@ The system has pre-defined usernames and passwords for demonstration purposes:
 
 - **OnlineReservationSystem.java**: Contains the main Java class implementing the reservation system.
 - **README.md**: This file, providing information about the project.
-- Note
+
+## Note
+
 This implementation uses hardcoded data for simplicity and demonstration. In a real-world application, data persistence, security measures, and error handling would be more robust and extensive.
+
+Feel free to explore and modify the code according to your needs!
