@@ -1,41 +1,90 @@
-# OIBSIP_1
 
-## OnlineReservationSystem.java
+```markdown
+# Online Reservation System (Java)
 
-This repository contains a Java program `OnlineReservationSystem.java` that simulates an online reservation system for trains. Users can authenticate, make reservations, and cancel reservations.
+This repository contains a simple command-line based Online Reservation System implemented in Java.
 
-### Features:
+## Description
 
-- **Authentication**: Users can log in using predefined credentials.
-- **Reservation**: Users can make reservations specifying details like train number, class type, date of journey, and journey details.
-- **Cancellation**: Users can cancel reservations using their PNR (Passenger Name Record) number.
-- **Dynamic PNR Generation**: Each reservation is assigned a unique PNR automatically.
+The Online Reservation System allows users to log in, make reservations, cancel reservations, and exit the system. User authentication is based on predefined credentials stored in memory. Reservations are stored using a PNR (Passenger Name Record) system and include details such as passenger name, train details, class type, date of journey, and journey route.
 
-### Usage:
+## Features
 
-1. **Compile**: Compile the `OnlineReservationSystem.java` file using a Java compiler:
-   ```bash
+- **Login System**: Authenticate users using predefined credentials.
+- **Reservation**: Book a train reservation specifying train number, class type, date of journey, and journey details.
+- **Cancellation**: Cancel a reservation using the generated PNR.
+- **Interactive Menu**: Users interact with the system via a command-line menu.
+
+## Usage
+
+To use the Online Reservation System:
+
+1. **Clone** the repository to your local machine.
+2. **Compile** the `OnlineReservationSystem.java` file.
+   ```
    javac OnlineReservationSystem.java
    ```
-
-2. **Run**: Execute the compiled Java class:
-   ```bash
+3. **Run** the compiled program.
+   ```
    java OnlineReservationSystem
    ```
+4. Follow the prompts to log in, make reservations, and cancel reservations.
 
-### Example Usage:
+## Example
 
-Upon running the program, users are prompted to log in with their username and password. After successful authentication, users can choose to make a reservation, cancel a reservation, or exit the system.
+Here's a brief example of how the system operates:
 
-### Note:
+```
+Welcome to Online Reservation System
+Enter username: user1
+Enter password: password1
+Login successful!
 
-- Ensure you have Java Development Kit (JDK) installed to compile and run the program.
-- The program uses standard input/output and requires user interaction via the command line.
+Main Menu:
+1. Make a Reservation
+2. Cancel Reservation
+3. Exit
+Enter your choice: 1
 
-### Contributors:
+Reservation System
+Please fill out the following details:
+Enter your name: John Doe
+Enter train number: Train1
+Enter class type: 1st Class
+Enter date of journey (DD/MM/YYYY): 12/06/2024
+Enter journey from (place): A
+Enter journey to (destination): B
 
-- [Shaswat Swarup Sahoo](https://github.com/Shaswat2208)
+Reservation successful!
+PNR Number: PNR123
+Details:
+John Doe: Sample Train Name, 1st Class, 12/06/2024, A to B
 
-Feel free to fork the repository, make improvements, or report issues.
+Main Menu:
+1. Make a Reservation
+2. Cancel Reservation
+3. Exit
+Enter your choice: 2
 
-Happy Reserving!
+Cancellation System
+Enter PNR number for cancellation: PNR123
+Details for PNR PNR123:
+John Doe: Sample Train Name, 1st Class, 12/06/2024, A to B
+Press OK to confirm cancellation (yes/no): yes
+Reservation with PNR PNR123 has been cancelled.
+
+Main Menu:
+1. Make a Reservation
+2. Cancel Reservation
+3. Exit
+Enter your choice: 3
+
+Thank you for using Online Reservation System. Goodbye!
+```
+
+## Author
+
+This program is developed by Shaswat Swarup Sahoo.
+
+Feel free to explore, modify, and use this Online Reservation System for learning or practical purposes.
+```
